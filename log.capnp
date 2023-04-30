@@ -1,6 +1,10 @@
 using Cxx = import "./include/c++.capnp";
 $Cxx.namespace("cereal");
 
+using Java = import "./include/java.capnp";
+$Java.package("ai.flow.definitions");
+$Java.outerClassname("Definitions");
+
 using Car = import "car.capnp";
 using Legacy = import "legacy.capnp";
 

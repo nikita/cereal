@@ -1,0 +1,376 @@
+services:
+  gyroscope:
+    log: true
+    frequency: 104
+    decimation: 104
+    keepLast: true
+
+  gyroscope2:
+    log: true
+    frequency: 100
+    decimation: 100
+    keepLast: true
+
+  accelerometer:
+    log: true
+    frequency: 104
+    decimation: 104
+    keepLast: true
+
+  accelerometer2:
+    log: true
+    frequency: 100
+    decimation: 100
+    keepLast: true
+
+  magnetometer:
+    log: true
+    frequency: 100
+    decimation: 100
+    keepLast: true
+
+  lightSensor:
+    log: true
+    frequency: 100
+    decimation: 100
+    keepLast: true
+
+  temperatureSensor:
+    log: true
+    frequency: 100
+    decimation: 100
+    keepLast: true
+
+  gpsNMEA:
+    log: true
+    frequency: 9
+    keepLast: true
+
+  deviceState:
+    log: true
+    frequency: 2
+    decimation: 1
+    keepLast: true
+
+  can:
+    log: true
+    frequency: 100
+    decimation: 1223 # decimation gives ~5 msgs in a full segment
+    keepLast: true
+
+  controlsState:
+    log: true
+    frequency: 100
+    decimation: 10
+    keepLast: true
+
+  pandaStates:
+    log: true
+    frequency: 2
+    decimation: 1
+    keepLast: true
+
+  peripheralState:
+    log: true
+    frequency: 2
+    decimation: 1
+    keepLast: true
+
+  radarState:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+  roadEncodeIdx:
+    log: false
+    frequency: 20
+    decimation: 1
+    keepLast: true
+
+  liveTracks:
+    log: true
+    frequency: 20
+    keepLast: true
+
+  sendcan:
+    log: true
+    frequency: 100
+    decimation: 139
+    keepLast: true
+
+  logMessage:
+    log: true
+    frequency: 0
+    keepLast: true
+
+  errorLogMessage:
+    log: true
+    frequency: 0
+    decimation: 1
+    keepLast: true
+
+  liveCalibration:
+    log: true
+    frequency: 4
+    decimation: 4
+    keepLast: true
+
+ liveTorqueParameters:
+    log: true
+    frequency: 4
+    decimation: 1
+    keepLast: true
+
+ androidLog:
+    log: true
+    frequency: 0
+    keepLast: true
+
+ carState:
+    log: true
+    frequency: 100
+    decimation: 10
+    keepLast: true
+
+ carControl:
+    log: true
+    frequency: 100
+    decimation: 10
+    keepLast: true
+
+ longitudinalPlan:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+ procLog:
+    log: true
+    frequency: 0.5
+    keepLast: true
+
+ gpsLocationExternal:
+    log: true
+    frequency: 10
+    decimation: 10
+    keepLast: true
+
+ gpsLocation:
+    log: true
+    frequency: 1
+    decimation: 1
+    keepLast: true
+
+ ubloxGnss:
+    log: true
+    frequency: 10
+    keepLast: true
+
+ qcomGnss:
+    log: true
+    frequency: 2
+    keepLast: true
+
+ gnssMeasurements:
+    log: true
+    frequency: 10
+    decimation: 10
+    keepLast: true
+
+ clocks:
+    log: true
+    frequency: 1
+    decimation: 1
+    keepLast: true
+
+ ubloxRaw:
+    log: true
+    frequency: 20
+    keepLast: true
+
+ liveLocationKalman:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+ liveParameters:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+ cameraOdometry:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+ lateralPlan:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+ thumbnail:
+    log: true
+    frequency: 0.2
+    decimation: 1
+    keepLast: true
+
+ carEvents:
+    log: true
+    frequency: 1
+    decimation: 1
+    keepLast: true
+
+ carParams:
+    log: true
+    frequency: 0.02
+    decimation: 1
+    keepLast: true
+
+ roadCameraState:
+    log: true
+    frequency: 20
+    decimation: 20
+    keepLast: true
+
+ driverCameraState:
+    log: true
+    frequency: 20
+    decimation: 20
+    keepLast: true
+
+ driverEncodeIdx:
+    log: false
+    frequency: 20
+    decimation: 1
+    keepLast: true
+
+ driverStateV2:
+    log: true
+    frequency: 20
+    decimation: 10
+    keepLast: true
+
+ driverMonitoringState:
+    log: true
+    frequency: 20
+    decimation: 10
+    keepLast: true
+
+ wideRoadEncodeIdx:
+    log: false
+    frequency: 20
+    decimation: 1
+    keepLast: true
+
+ wideRoadCameraState:
+    log: true
+    frequency: 20
+    decimation: 20
+    keepLast: true
+
+ modelV2:
+    log: true
+    frequency: 20
+    decimation: 40
+    keepLast: true
+
+ managerState:
+    log: true
+    frequency: 2
+    decimation: 1
+    keepLast: true
+
+ uploaderState:
+    log: true
+    frequency: 0
+    decimation: 1
+    keepLast: true
+
+ navInstruction:
+    log: true
+    frequency: 1
+    decimation: 10
+    keepLast: true
+
+ navRoute:
+    log: true
+    frequency: 0
+    keepLast: true
+
+ navThumbnail:
+    log: true
+    frequency: 0
+    keepLast: true
+
+ navModel:
+    log: true
+    frequency: 2
+    decimation: 4
+    keepLast: true
+
+ mapRenderState:
+    log: true
+    frequency: 2
+    decimation: 1
+    keepLast: true
+
+ uiPlan:
+    log: true
+    frequency: 20
+    decimation: 40
+    keepLast: true
+
+ qRoadEncodeIdx:
+    log: false
+    frequency: 20
+    keepLast: true
+
+ userFlag:
+    log: true
+    frequency: 0
+    decimation: 1
+    keepLast: true
+
+ microphone:
+    log: true
+    frequency: 10
+    decimation: 10
+    keepLast: true
+
+
+# debug
+ uiDebug:
+    log: true
+    frequency: 0
+    decimation: 1
+    keepLast: true
+
+ testJoystick:
+    log: true
+    frequency: 0
+    keepLast: true
+
+ roadEncodeData:
+    log: false
+    frequency: 20
+    keepLast: true
+
+ driverEncodeData:
+    log: false
+    frequency: 20
+    keepLast: true
+
+ wideRoadEncodeData:
+    log: false
+    frequency: 20
+    keepLast: true
+
+ qRoadEncodeData:
+    log: false
+    frequency: 20
+    keepLast: true

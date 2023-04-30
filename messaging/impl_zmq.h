@@ -3,10 +3,13 @@
 #include <zmq.h>
 #include <string>
 #include <vector>
+#include <map>
 
 #include "cereal/messaging/messaging.h"
 
 #define MAX_POLLERS 128
+
+extern std::map<std::string, std::string> ZMQ_PROTOCOLS;
 
 class ZMQContext : public Context {
 private:
