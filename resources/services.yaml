@@ -116,261 +116,260 @@ services:
     decimation: 4
     keepLast: true
 
- liveTorqueParameters:
+  liveTorqueParameters:
     log: true
     frequency: 4
     decimation: 1
     keepLast: true
 
- androidLog:
+  androidLog:
     log: true
     frequency: 0
     keepLast: true
 
- carState:
+  carState:
     log: true
     frequency: 100
     decimation: 10
     keepLast: true
 
- carControl:
+  carControl:
     log: true
     frequency: 100
     decimation: 10
     keepLast: true
 
- longitudinalPlan:
+  longitudinalPlan:
     log: true
     frequency: 20
     decimation: 5
     keepLast: true
 
- procLog:
+  procLog:
     log: true
     frequency: 0.5
     keepLast: true
 
- gpsLocationExternal:
+  gpsLocationExternal:
     log: true
     frequency: 10
     decimation: 10
     keepLast: true
 
- gpsLocation:
+  gpsLocation:
     log: true
     frequency: 1
     decimation: 1
     keepLast: true
 
- ubloxGnss:
+  ubloxGnss:
     log: true
     frequency: 10
     keepLast: true
 
- qcomGnss:
+  qcomGnss:
     log: true
     frequency: 2
     keepLast: true
 
- gnssMeasurements:
+  gnssMeasurements:
     log: true
     frequency: 10
     decimation: 10
     keepLast: true
 
- clocks:
+  clocks:
     log: true
     frequency: 1
     decimation: 1
     keepLast: true
 
- ubloxRaw:
+  ubloxRaw:
     log: true
     frequency: 20
     keepLast: true
 
- liveLocationKalman:
-    log: true
-    frequency: 20
-    decimation: 5
-    keepLast: true
-
- liveParameters:
+  liveLocationKalman:
     log: true
     frequency: 20
     decimation: 5
     keepLast: true
 
- cameraOdometry:
+  liveParameters:
     log: true
     frequency: 20
     decimation: 5
     keepLast: true
 
- lateralPlan:
+  cameraOdometry:
     log: true
     frequency: 20
     decimation: 5
     keepLast: true
 
- thumbnail:
+  lateralPlan:
+    log: true
+    frequency: 20
+    decimation: 5
+    keepLast: true
+
+  thumbnail:
     log: true
     frequency: 0.2
     decimation: 1
     keepLast: true
 
- carEvents:
+  carEvents:
     log: true
     frequency: 1
     decimation: 1
     keepLast: true
 
- carParams:
+  carParams:
     log: true
     frequency: 0.02
     decimation: 1
     keepLast: true
 
- roadCameraState:
+  roadCameraState:
     log: true
     frequency: 20
     decimation: 20
     keepLast: true
 
- driverCameraState:
+  driverCameraState:
     log: true
     frequency: 20
     decimation: 20
     keepLast: true
 
- driverEncodeIdx:
+  driverEncodeIdx:
     log: false
     frequency: 20
     decimation: 1
     keepLast: true
 
- driverStateV2:
+  driverStateV2:
     log: true
     frequency: 20
     decimation: 10
     keepLast: true
 
- driverMonitoringState:
+  driverMonitoringState:
     log: true
     frequency: 20
     decimation: 10
     keepLast: true
 
- wideRoadEncodeIdx:
+  wideRoadEncodeIdx:
     log: false
     frequency: 20
     decimation: 1
     keepLast: true
 
- wideRoadCameraState:
+  wideRoadCameraState:
     log: true
     frequency: 20
     decimation: 20
     keepLast: true
 
- modelV2:
+  modelV2:
     log: true
     frequency: 20
     decimation: 40
     keepLast: true
 
- managerState:
+  managerState:
     log: true
     frequency: 2
     decimation: 1
     keepLast: true
 
- uploaderState:
+  uploaderState:
     log: true
     frequency: 0
     decimation: 1
     keepLast: true
 
- navInstruction:
+  navInstruction:
     log: true
     frequency: 1
     decimation: 10
     keepLast: true
 
- navRoute:
+  navRoute:
     log: true
     frequency: 0
     keepLast: true
 
- navThumbnail:
+  navThumbnail:
     log: true
     frequency: 0
     keepLast: true
 
- navModel:
+  navModel:
     log: true
     frequency: 2
     decimation: 4
     keepLast: true
 
- mapRenderState:
+  mapRenderState:
     log: true
     frequency: 2
     decimation: 1
     keepLast: true
 
- uiPlan:
+  uiPlan:
     log: true
     frequency: 20
     decimation: 40
     keepLast: true
 
- qRoadEncodeIdx:
+  qRoadEncodeIdx:
     log: false
     frequency: 20
     keepLast: true
 
- userFlag:
+  userFlag:
     log: true
     frequency: 0
     decimation: 1
     keepLast: true
 
- microphone:
+  microphone:
     log: true
     frequency: 10
     decimation: 10
     keepLast: true
 
-
-# debug
- uiDebug:
+  # debug
+  uiDebug:
     log: true
     frequency: 0
     decimation: 1
     keepLast: true
 
- testJoystick:
+  testJoystick:
     log: true
     frequency: 0
     keepLast: true
 
- roadEncodeData:
+  roadEncodeData:
     log: false
     frequency: 20
     keepLast: true
 
- driverEncodeData:
+  driverEncodeData:
     log: false
     frequency: 20
     keepLast: true
 
- wideRoadEncodeData:
+  wideRoadEncodeData:
     log: false
     frequency: 20
     keepLast: true
 
- qRoadEncodeData:
+  qRoadEncodeData:
     log: false
     frequency: 20
     keepLast: true
