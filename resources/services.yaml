@@ -237,6 +237,12 @@ services:
     decimation: 20
     keepLast: true
 
+  roadCameraBuffer:
+    log: false
+    frequency: 20
+    decimation: 20
+    keepLast: true
+
   driverCameraState:
     log: true
     frequency: 20

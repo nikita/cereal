@@ -1,9 +1,9 @@
 package messaging;
 
 public class Service{
-    public int port;
-    public float expectedFreq;
-    public boolean keepLast;
     public boolean log;
+    public float frequency;
     public float decimation;
+    public boolean keepLast;
+    public int port;
 }

@@ -32,6 +32,8 @@ public class PortMap{
         for (String service : portmap.services.keySet()){
             portmap.services.get(service).port = newPort(idx);
             idx += 1;
+            // TODO: print error of missing service(s) from yaml, maybe throw same as in impl_zmq.cc for missing port
+            // System.out.println(service + " : " + portmap.services.get(service).port);
         }
         return portmap;
     }

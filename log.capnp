@@ -2210,8 +2210,8 @@ struct Event {
     qRoadEncodeData @89 :EncodeData;
 
     # *********** Custom: reserved for forks ***********
-    customReserved0 @107 :Custom.CustomReserved0;
-    customReserved1 @108 :Custom.CustomReserved1;
+    modelRaw @107 :Custom.ModelRaw;
+    roadCameraBuffer @108 :Custom.FrameBuffer;
     customReserved2 @109 :Custom.CustomReserved2;
     customReserved3 @110 :Custom.CustomReserved3;
     customReserved4 @111 :Custom.CustomReserved4;
